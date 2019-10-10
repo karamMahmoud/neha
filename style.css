@@ -1,0 +1,152 @@
+/* Styles go here */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width:1250;
+    margin: auto;
+    font-family:;
+    
+}
+header .logo{
+    display:flex;
+    justify-content: space-between;
+    font-family: 'Cairo', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+header{
+    padding: 30px 100px;
+   
+}
+header .nav-bar ul{ 
+    list-style: none;
+    
+    
+}
+header .icons ul{ 
+    list-style: none;
+   
+}
+header .nav-bar ul li{
+    padding: 10px;
+     display: inline-block;
+}
+
+header .nav-bar ul li a{
+   text-decoration: none;
+   color:black;   
+}
+header .icons ul li {
+     display: inline-block;
+    padding: 0 10px;
+    
+}
+header .icons ul li a{
+    color: black;
+}
+
+.Healthy {
+    background-image: url(../images/bg.jpg);
+    padding: 200px 100px ;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.Healthy h1{
+    font-size: 50px;
+    font-family: 'Playfair Display', serif;
+    color: #433e3d;
+}
+.Healthy h4{
+    font-size: 25px;
+    padding-top: 10px;
+     color: #433e3d;
+    font-family: 'Playfair Display', serif;
+
+}
+.Healthy h6{
+   padding-top: 20px;
+     font-size: 17px;
+}
+.Healthy h6 a{
+    display: inline-block;
+    border-bottom: 1.5px solid #e62e00;
+    padding-bottom: 7px;
+    text-decoration: none;
+    font-family: 'PT Sans', sans-serif;
+    color:  #e62e00;   
+}
+@media (max-width:600px){
+    header{
+        padding:30px 30px;
+    }
+    header .logo{
+        font-size: 10px;
+    }
+    .Healthy h1{
+        font-size:26px; 
+    }
+   .Healthy {
+    padding: 88px 27px; 
+}
+    .Healthy h4 {
+    font-size: 17px;
+    }
+}
+@media (min-width:0px)and(max-width:330px){
+    header .logo .image{
+        width:60px;
+    }
+    header {
+    padding: 15px 15px;
+}
+}
+@media (min-width:331px)and(max-width:576px){
+    header .nav-bar ul li{
+        display: block;
+    }
+    header {
+    padding: 15px 15px;
+}
+}
+@media (min-width:577px)and(max-width:992px){
+     header{
+        padding:30px 30px;
+    }
+    header .logo{
+        font-size: 10px;
+    }
+    .Healthy h1{
+        font-size:26px; 
+    }
+   .Healthy {
+    padding: 88px 27px; 
+}
+    .Healthy h4 {
+    font-size: 17px;
+    }
+}
+@media (min-width:992px)and(max-width:1200px){
+     header{
+        padding:30px 30px;
+    }
+    header .logo{
+        font-size: 10px;
+    }
+    .Healthy h1{
+        font-size:26px; 
+    }
+   .Healthy {
+    padding: 88px 27px; 
+}
+    .Healthy h4 {
+    font-size: 17px;
+    }
+}
+@media (min-width:1200px){
+}
+
+
